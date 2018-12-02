@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main-content.css">
+    <style>
+
+        /*头部样式*/
+        #header {
+            height: 40px;
+            background: rgb(43, 43, 43);
+        }
+
+        #header .header-content {
+            width: 1150px;
+            margin: 0 auto;
+
+        }
+
+        /*右导航*/
+        #nav-box {
+            position: fixed;
+            /*border: 1px solid red;*/
+            width: 197px;
+            height: 100%;
+            background: #1d1d1d;
+            right: 0;
+            top: 0;
+        }
+
+        #nav-box .nav {
+            position: relative;
+        }
+
+        #nav-box .nav .n-list {
+            position: absolute;
+            top: 335px;
+            right: 50px;
+        }
+
+        #nav-box .nav .n-list li {
+            text-align: center;
+            padding-top: 20px;
+            font-size: 20px;
+            color: #787878;
+            letter-spacing: 15px;
+        }
+
+        #nav-box .n-pic img {
+            width: 100%;
+            position: absolute;
+            top: 140px;
+        }
+
+        #nav-box .nav .n-list li:hover {
+            cursor: pointer;
+            color: aliceblue;
+        }
+
+        /*end 右导航*/
+    </style>
+</head>
+<body style="background:#2b2b2b">
+
+<!--头部-->
+<div id="header">
+    <!--头部存放内容的div-->
+    <div class="header-content">
+
+    </div>
+</div>
+
+<!--主内容-->
+<div id="main">
+    <!--轮播图-->
+    <div class="m-banner">
+        <!--图片-->
+        <ul class="pic">
+            <li><img
+                    src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1532081231668&di=3995d830e5914a4834173f3f3e667426&imgtype=0&src=http%3A%2F%2Fuploads.5068.com%2Fallimg%2F1801%2F8580-1P11QK333.jpg"
+                    alt=""></li>
+            <li><img
+                    src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1532081429752&di=3150292a9e2e9a0b86d62491377a145c&imgtype=0&src=http%3A%2F%2Fd.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2F902397dda144ad34dac66dcddba20cf431ad857b.jpg"
+                    alt=""></li>
+            <li><img
+                    src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1532081453701&di=9f235a20e1035cabf9fb0de86353bb24&imgtype=jpg&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D3876154646%2C1186132633%26fm%3D214%26gp%3D0.jpg"
+                    alt=""></li>
+            <li><img
+                    src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1532081480234&di=8b7d251c886f8b2b93aba22f641c539d&imgtype=0&src=http%3A%2F%2Fimg17.3lian.com%2Fd%2Ffile%2F201702%2F25%2F6d8683301b6f79ea0968b10b407e18da.jpg"
+                    alt=""></li>
+        </ul>
+        <!--小圆点-->
+        <ul class="wrap">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <!--左右-->
+        <ul class="btn">
+            <li class="left">&lt;</li>
+            <li class="right">&gt;</li>
+        </ul>
+    </div>
+
+    <!--内容-->
+    <ul class="page-list">
+        <!--首页-->
+        <li class="page-home ">
+            <div class="home-wrap">
+                <div class="w-left">
+                    <div class="img float-left">
+                        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1530769675196&di=c6afe9b9799584ace037c249a82fb7c0&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F15%2F48%2F60%2F17y58PICUk7_1024.jpg"
+             alt="">
+                    </div>
+                    <div class="write float0-right"></div>
+                </div>
+                <div class="w-right">
+                    <div class="img float0-right">
+                        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1530769675197&di=71785ef5bdc119d099de69dda0a8794c&imgtype=0&src=http%3A%2F%2Fpic5.photophoto.cn%2F20071221%2F0039038710327761_b.jpg" alt="">
+                    </div>
+                    <div class="write float-left"></div>
+                </div>
+                 <div class="w-left">
+                    <div class="img float-left">
+                        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1530769675198&di=7ffd1b0dca1208b945a11f5c908158e2&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F16%2F60%2F85%2F16B58PICyCp_1024.jpg"
+             alt="">
+                    </div>
+                    <div class="write float0-right"></div>
+                </div>
+                <div class="w-right">
+                    <div class="img float0-right">
+                        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1530769675198&di=52e2768154359c0531143e02e62a9366&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F17%2F96%2F85F58PICfmr_1024.jpg"
+             alt="">
+                    </div>
+                    <div class="write float-left"></div>
+                </div>
+            </div>
+        </li>
+
+        <!--摄影-->
+        <li class="page-nav2 ">
+             <div >
+                <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1530769675197&di=71785ef5bdc119d099de69dda0a8794c&imgtype=0&src=http%3A%2F%2Fpic5.photophoto.cn%2F20071221%2F0039038710327761_b.jpg"
+             alt="">
+             </div>
+        </li>
+
+        <!--程序-->
+        <li class="page-nav3 ">
+            <div ></div>
+        </li>
+
+        <!--绘画-->
+        <li class="page-nav4 ">
+            <div ></div>
+        </li>
+
+    </ul>
+</div>
+
+<!--右导航-->
+<div id="nav-box">
+    <!--导航栏图标-->
+    <div class="n-pic">
+        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1530765955731&di=a398a49e3a5d43525a6e3acb21cb9ceb&imgtype=0&src=http%3A%2F%2Fwww.jituwang.com%2Fuploads%2Fallimg%2F150110%2F259502-15011022221592.jpg"
+             alt="">
+    </div>
+    <!--导航条-->
+    <div class="nav">
+        <ul class="n-list">
+            <li>首页</li>
+            <li>摄影</li>
+            <li>绘画</li>
+            <li>程序</li>
+        </ul>
+    </div>
+</div>
+
+<!--底部-->
+<div id="footer">
+
+</div>
+
+<!--js-->
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+<script src="js/banner.js"></script>
+<script src="js/pages.js"></script>
+</body>
+</html>
